@@ -1,0 +1,4 @@
+db7747795aefa4c693cf7f800bcc114febee88014864644ec1ed1aaabfc42eee  ./base.apk
+33c564b79f6d6a718b94853c75331050704734527e12abd00bd4f69a2d309c5c  ./split_config.arm64_v8a.apk
+c5a16ab18f9cc9a21cf066680a071a3d5f534a63b56d1628e75ad327a072b22f  ./split_config.en.apk
+ba5b64db20968fc03e2faf20fccaddccd7379909d5ae5e082109f007e2e40746  ./split_config.xxhdpi.apk

@@ -1,0 +1,26 @@
+{
+  "src/mathjax_src/input/tex/base/BaseMappings.js": {
+    "bytes": 823257,
+    "sha256": "fe1fee7f27618a612cf2d53c6dc09d8a622994905ea778241854c5dbe6d0be82",
+    "source_js": true,
+    "relative_requires_verified": [
+      "../TokenMap",
+      "../TexConstants",
+      "./BaseMethods",
+      "../ParseMethods",
+      "../ParseUtil",
+      "../../../core/MmlTree/MmlNode",
+      "../../../util/lengths",
+      "../UnitUtil",
+      "../NodeUtil",
+      "../TexParser",
+      "../../../../mathjax_font/svg"
+    ]
+  },
+  "hash": {
+    "bytes": 64,
+    "sha256": "ba86fd50cca15e416bf4477c4ad6eaf7ce4146e95c945cf2a309c1c4b706a885",
+    "source_js": false,
+    "module_content_hash": "d55328cb39bc45ef06ef3ce97495e1960060c03a116ec796fffb881d83001b4f"
+  }
+}

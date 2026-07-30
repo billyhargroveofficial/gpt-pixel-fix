@@ -1,0 +1,8 @@
+--- input/base-phase1-unsigned.apk
++++ build/base-phase4-unsigned.apk
+- file 'assets/math_jax.valdimodule', size 543215, crc 149281a3, mtime 347148062
++ file 'assets/math_jax.valdimodule', size 728799, crc e2481832, mtime 347148062
+- file 'classes.dex', size 8531816, crc c8a7cb09, mtime 347148062
++ file 'classes.dex', size 8531816, crc 23f7312f, mtime 1785447716
+- file 'classes5.dex', size 9605136, crc 58018acb, mtime 1785439834
++ file 'classes5.dex', size 9605136, crc 72a1cd05, mtime 1785447716

@@ -1,0 +1,40 @@
+# Proprietary inputs and generated APK sets
+**/original/
+**/input/
+**/build/
+**/output/
+**/work/
+*.apk
+*.apks
+*.aab
+*.idsig
+!launcher/dist/chatgpt-chrome.apk
+
+# Private user evidence
+private-evidence/
+*.db
+*.db-*
+*.sqlite
+*.sqlite3
+
+# Signing material and credentials
+*.jks
+*.keystore
+*.p12
+*.pfx
+*.pem
+*.key
+secrets.env
+.env
+.env.*
+
+# Tool caches
+node_modules/
+__pycache__/
+*.py[cod]
+.build.*
+
+# Editors / OS
+.idea/
+.vscode/
+*~

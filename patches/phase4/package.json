@@ -1,0 +1,10 @@
+{
+  "name": "gpt-pixel-fix-phase4-smoke",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Pinned host-side MathJax fixture for the phase-4 smoke test",
+  "dependencies": {
+    "@mathjax/mathjax-newcm-font": "4.1.1",
+    "@mathjax/src": "4.1.1"
+  }
+}

@@ -1,0 +1,1553 @@
+{
+  "compressed": true,
+  "compressed_sha256": "200f27ac1b330f8a18b00f7183a159c6e931832fe1de8125cc5e998a2e477973",
+  "compressed_size": 728799,
+  "entries": [
+    {
+      "index": 0,
+      "path": "src/mathjax_src/util/string.js",
+      "precompiled_js": true,
+      "sha256": "bef39762ad422220a1046b13a45231d92f94970e5e24c6473fdeecbf117e7f13",
+      "size": 2173
+    },
+    {
+      "index": 1,
+      "path": "src/mathjax_src/util/numeric.js",
+      "precompiled_js": true,
+      "sha256": "913276ec7497940d12ce75bdfd45780982ea28dabf12962164e363ce316f6caa",
+      "size": 535
+    },
+    {
+      "index": 2,
+      "path": "src/mathjax_src/util/lengths.js",
+      "precompiled_js": true,
+      "sha256": "20b1378587a5c11b3ca50ceb820719e9452d5639928340bf3a62270abce957b7",
+      "size": 3213
+    },
+    {
+      "index": 3,
+      "path": "src/mathjax_src/util/context.js",
+      "precompiled_js": true,
+      "sha256": "2f2139002c4fdf5f0b637d7573717bf424950159be1ab914070b1abc8181d563",
+      "size": 1948
+    },
+    {
+      "index": 4,
+      "path": "src/mathjax_src/util/Styles.js",
+      "precompiled_js": true,
+      "sha256": "2ad251f5ba62ea8b7c220994a7a77bfb8b953d9577787305c0e0a6a68199d92a",
+      "size": 15870
+    },
+    {
+      "index": 5,
+      "path": "src/mathjax_src/util/StyleJson.js",
+      "precompiled_js": true,
+      "sha256": "ee606145f92ff5bee3760c30954b9fde6ccb32c97614c14f85a44e4dd5bfc977",
+      "size": 1934
+    },
+    {
+      "index": 6,
+      "path": "src/mathjax_src/util/Retries.js",
+      "precompiled_js": true,
+      "sha256": "e138c214f36f3591e68f747a5fd5c238047e10769d5edb6e61d9388f082a58da",
+      "size": 1396
+    },
+    {
+      "index": 7,
+      "path": "src/mathjax_src/util/PrioritizedList.js",
+      "precompiled_js": true,
+      "sha256": "67cf4034c3db11ffd338e724b37c16a9aa570f8192ef93efc703b0076515a151",
+      "size": 1300
+    },
+    {
+      "index": 8,
+      "path": "src/mathjax_src/util/Options.js",
+      "precompiled_js": true,
+      "sha256": "ba72a40430999fa6533944eee14143c66855655977b91acf00ff7595e6cfd06d",
+      "size": 4930
+    },
+    {
+      "index": 9,
+      "path": "src/mathjax_src/util/LinkedList.js",
+      "precompiled_js": true,
+      "sha256": "7fdceb13d2240e4e864b81bdc63ce666f11c60c670b021bd6bc1d2f9e5a3b533",
+      "size": 7466
+    },
+    {
+      "index": 10,
+      "path": "src/mathjax_src/util/FunctionList.js",
+      "precompiled_js": true,
+      "sha256": "71e93d5637a352857dce2d92e0dfd7716fd3eeedcc2c142337bc00945708793e",
+      "size": 1406
+    },
+    {
+      "index": 11,
+      "path": "src/mathjax_src/util/Entities.js",
+      "precompiled_js": true,
+      "sha256": "a76b65b506eb6b2427bad2f31ecd0d934b513322db6de18d345a05c1464d87e7",
+      "size": 11338
+    },
+    {
+      "index": 12,
+      "path": "src/mathjax_src/util/BitField.js",
+      "precompiled_js": true,
+      "sha256": "0711b779ccab04c8333b6de635b45453dfa3def6e235956e2143d4106156a4d0",
+      "size": 1939
+    },
+    {
+      "index": 13,
+      "path": "src/mathjax_src/util/BBox.js",
+      "precompiled_js": true,
+      "sha256": "5fb319275e5aeca39eccec2f667461d9d9cbf2a12f4b95c18c3883247f19eedf",
+      "size": 3237
+    },
+    {
+      "index": 14,
+      "path": "src/mathjax_src/util/AsyncLoad.js",
+      "precompiled_js": true,
+      "sha256": "e204c01138fed4ff2e2b5ab2d29e38775c49735b8b049a3c126d3a4d763836af",
+      "size": 859
+    },
+    {
+      "index": 15,
+      "path": "src/mathjax_src/output/svg/Wrappers/zero.js",
+      "precompiled_js": true,
+      "sha256": "601024fb32a40582a4bee40eff24a1e9026620e921e31ff72ffd557566f113df",
+      "size": 2211
+    },
+    {
+      "index": 16,
+      "path": "src/mathjax_src/output/svg/Wrappers/semantics.js",
+      "precompiled_js": true,
+      "sha256": "a65abec6c56015bb5f5b7296eeac07eecef00c7f96caf49d0007a10311800cde",
+      "size": 4675
+    },
+    {
+      "index": 17,
+      "path": "src/mathjax_src/output/svg/Wrappers/scriptbase.js",
+      "precompiled_js": true,
+      "sha256": "e89c5487e180ca3fbcd1800d813bd45fef2f26cd57842392ebe1b973f49d2fe9",
+      "size": 1346
+    },
+    {
+      "index": 18,
+      "path": "src/mathjax_src/output/svg/Wrappers/munderover.js",
+      "precompiled_js": true,
+      "sha256": "0b05e2618ef441e7cda7bc8dec25dad841b7ba259071ee5e0a275be85d72908a",
+      "size": 4993
+    },
+    {
+      "index": 19,
+      "path": "src/mathjax_src/output/svg/Wrappers/mtr.js",
+      "precompiled_js": true,
+      "sha256": "0993f1687d3af2a61488f33b24e0f653db1dfc7fea4b30ad58c97f8e360d8b10",
+      "size": 4710
+    },
+    {
+      "index": 20,
+      "path": "src/mathjax_src/output/svg/Wrappers/mtext.js",
+      "precompiled_js": true,
+      "sha256": "3f0a121dbf8e096b42687b978983e8a39c136078570420f4696bd8b2a61a7234",
+      "size": 2909
+    },
+    {
+      "index": 21,
+      "path": "src/mathjax_src/output/svg/Wrappers/mtd.js",
+      "precompiled_js": true,
+      "sha256": "3c79593640e5550c0792b7ad887455ae58ce99727ab0b5608efd53acc1ea8c81",
+      "size": 2336
+    },
+    {
+      "index": 22,
+      "path": "src/mathjax_src/output/svg/Wrappers/mtable.js",
+      "precompiled_js": true,
+      "sha256": "8a6f6089558e5083ccfdde20a4350cae420ecced9a8f8512835df48b4399d197",
+      "size": 13832
+    },
+    {
+      "index": 23,
+      "path": "src/mathjax_src/output/svg/Wrappers/msubsup.js",
+      "precompiled_js": true,
+      "sha256": "770e4082ab6d6f571ef45e44f48a5998892110f8cb4b898131c7d138f80f3c17",
+      "size": 2610
+    },
+    {
+      "index": 24,
+      "path": "src/mathjax_src/output/svg/Wrappers/msqrt.js",
+      "precompiled_js": true,
+      "sha256": "f9b25e23234e44fe7d6c70363f0f9a48c62461b9be91c4c356e34f2b81e39c7e",
+      "size": 2637
+    },
+    {
+      "index": 25,
+      "path": "src/mathjax_src/output/svg/Wrappers/mspace.js",
+      "precompiled_js": true,
+      "sha256": "81f54de72eca07f4db8cd024694494e9fb03f185b74ba817b79c727f4845a3c2",
+      "size": 808
+    },
+    {
+      "index": 26,
+      "path": "src/mathjax_src/output/svg/Wrappers/ms.js",
+      "precompiled_js": true,
+      "sha256": "ede31f19d8dbf1a95d186525fcc3f09bfdb71d3581f4625db510e8fdaf989fee",
+      "size": 784
+    },
+    {
+      "index": 27,
+      "path": "src/mathjax_src/output/svg/Wrappers/mrow.js",
+      "precompiled_js": true,
+      "sha256": "1649672dc2c029cfab8d7c247f85e57899406a38bac1ce87768f60d88af9607b",
+      "size": 4885
+    },
+    {
+      "index": 28,
+      "path": "src/mathjax_src/output/svg/Wrappers/mroot.js",
+      "precompiled_js": true,
+      "sha256": "5c7540e38e2228b8a092687e793f61152c2be171043c04bdbfaa7f6ff6691384",
+      "size": 1181
+    },
+    {
+      "index": 29,
+      "path": "src/mathjax_src/output/svg/Wrappers/mphantom.js",
+      "precompiled_js": true,
+      "sha256": "729ec4409ef7d66d448a54192c76224d7c25bfbe11e16ef62c940acae94d709f",
+      "size": 799
+    },
+    {
+      "index": 30,
+      "path": "src/mathjax_src/output/svg/Wrappers/mpadded.js",
+      "precompiled_js": true,
+      "sha256": "15c2580915211e60dbd53a5c2d4d26a7fa2105d0d984961cd2187e3aa60a8151",
+      "size": 1639
+    },
+    {
+      "index": 31,
+      "path": "src/mathjax_src/output/svg/Wrappers/mo.js",
+      "precompiled_js": true,
+      "sha256": "a0b381f92ed6a6bcbd9d9a05de14d3c73d82224cc6898ad9c95157e69901a330",
+      "size": 10051
+    },
+    {
+      "index": 32,
+      "path": "src/mathjax_src/output/svg/Wrappers/mn.js",
+      "precompiled_js": true,
+      "sha256": "39f55b6f060a8d8e83b9c860ec47e08a92a30df09abe6846f4fbb88d1affa135",
+      "size": 784
+    },
+    {
+      "index": 33,
+      "path": "src/mathjax_src/output/svg/Wrappers/mmultiscripts.js",
+      "precompiled_js": true,
+      "sha256": "e09f1896cd9544dc5a1c90f028af787ed2671eb202e62099ba191123085adad1",
+      "size": 4008
+    },
+    {
+      "index": 34,
+      "path": "src/mathjax_src/output/svg/Wrappers/mi.js",
+      "precompiled_js": true,
+      "sha256": "38ad9190f63ba705c3c583b780e37213044596fbb10ae5e4d380b476288386fb",
+      "size": 784
+    },
+    {
+      "index": 35,
+      "path": "src/mathjax_src/output/svg/Wrappers/mglyph.js",
+      "precompiled_js": true,
+      "sha256": "0f527f42401f8cb57e503bd88891cfb5eb3b5eeb66eb8809daf9824d8e3fa0a2",
+      "size": 1933
+    },
+    {
+      "index": 36,
+      "path": "src/mathjax_src/output/svg/Wrappers/mfrac.js",
+      "precompiled_js": true,
+      "sha256": "997101ebd3e80bfdb1df9d6bf6f257da99888614e1150cc24122a94c07b0ec57",
+      "size": 6655
+    },
+    {
+      "index": 37,
+      "path": "src/mathjax_src/output/svg/Wrappers/mfenced.js",
+      "precompiled_js": true,
+      "sha256": "9f3ab54d403422064d961326fa08281c1ca2d69c3bfeb4fd6e8232ebe2a64a9b",
+      "size": 1272
+    },
+    {
+      "index": 38,
+      "path": "src/mathjax_src/output/svg/Wrappers/merror.js",
+      "precompiled_js": true,
+      "sha256": "66cb7f6fa55279b18c6dcbba71b105345ed63e733858a6b564c23737fcb1ab4f",
+      "size": 2019
+    },
+    {
+      "index": 39,
+      "path": "src/mathjax_src/output/svg/Wrappers/menclose.js",
+      "precompiled_js": true,
+      "sha256": "4c9f0f4ce1ba14b40b44edf66e022cf9ef4ad1263771a009293cdc891122cc23",
+      "size": 11369
+    },
+    {
+      "index": 40,
+      "path": "src/mathjax_src/output/svg/Wrappers/math.js",
+      "precompiled_js": true,
+      "sha256": "783eea9e8ef1e8df817385b8b13e0fb9d37f9fbc9dcd7d925a51c4ba908822de",
+      "size": 3949
+    },
+    {
+      "index": 41,
+      "path": "src/mathjax_src/output/svg/Wrappers/maction.js",
+      "precompiled_js": true,
+      "sha256": "f950e909c185e2cd5838cd3d115ef2a41d4de858b35ac4f23e2608e784de53b5",
+      "size": 9684
+    },
+    {
+      "index": 42,
+      "path": "src/mathjax_src/output/svg/Wrappers/TextNode.js",
+      "precompiled_js": true,
+      "sha256": "2a85e450fd76847042a6721e6a64ad27232b3d0e262e5caac614763961ffe645",
+      "size": 2072
+    },
+    {
+      "index": 43,
+      "path": "src/mathjax_src/output/svg/Wrappers/TeXAtom.js",
+      "precompiled_js": true,
+      "sha256": "e482c6fb65b5889d43615486b32bdf0e947ef12f1cc1fc7085a36c655e6cdd83",
+      "size": 1230
+    },
+    {
+      "index": 44,
+      "path": "src/mathjax_src/output/svg/Wrappers/HtmlNode.js",
+      "precompiled_js": true,
+      "sha256": "bed5f769f84d1f5130da560115f856e6ae5357b8a4471eea5097b895c393e1de",
+      "size": 695
+    },
+    {
+      "index": 45,
+      "path": "src/mathjax_src/output/svg/Wrappers.js",
+      "precompiled_js": true,
+      "sha256": "3c6594c0aeb47d0d6c617c188d4b63f14bc48a295406f8d1b6917031d0a9562f",
+      "size": 5897
+    },
+    {
+      "index": 46,
+      "path": "src/mathjax_src/output/svg/WrapperFactory.js",
+      "precompiled_js": true,
+      "sha256": "96df20bcf7952d6130c5f7ae824eb56bed9200e354e5e4cc25c0c6b2e108fa22",
+      "size": 608
+    },
+    {
+      "index": 47,
+      "path": "src/mathjax_src/output/svg/Wrapper.js",
+      "precompiled_js": true,
+      "sha256": "dde8cadf6e5b4703df7a2e58d0fdafbdae0329683a863cafa6544875c9f952b1",
+      "size": 19642
+    },
+    {
+      "index": 48,
+      "path": "src/mathjax_src/output/svg/Notation.js",
+      "precompiled_js": true,
+      "sha256": "d2474dccf243590c6355248bdb42eed799b30d89c07da61ffa101ef479ee31b8",
+      "size": 4034
+    },
+    {
+      "index": 49,
+      "path": "src/mathjax_src/output/svg/FontData.js",
+      "precompiled_js": true,
+      "sha256": "bc524fd506b17117cb04c25cebef207545e3cdb99c4ef68521fb87f41937256e",
+      "size": 1716
+    },
+    {
+      "index": 50,
+      "path": "src/mathjax_src/output/svg/FontCache.js",
+      "precompiled_js": true,
+      "sha256": "d3a596dcbf3bcb82ce6377a061f7f7fece79560eb99d7cae93d10af413aeeec3",
+      "size": 1628
+    },
+    {
+      "index": 51,
+      "path": "src/mathjax_src/output/svg/DefaultFont.js",
+      "precompiled_js": true,
+      "sha256": "f527950cb28cf3b046bdb7423932a53141600b7bc06a371c5a2cb14dcfe76fa0",
+      "size": 483
+    },
+    {
+      "index": 52,
+      "path": "src/mathjax_src/output/svg.js",
+      "precompiled_js": true,
+      "sha256": "877fc60355903165933678b6eb6a12de7e76db6d54a7d82ff89192c673eb2256",
+      "size": 15526
+    },
+    {
+      "index": 53,
+      "path": "src/mathjax_src/output/common/Wrappers/semantics.js",
+      "precompiled_js": true,
+      "sha256": "023573771b0054a73fc1bdf11ccd9dfbc79857a353dc4840f4b033006f6692eb",
+      "size": 1175
+    },
+    {
+      "index": 54,
+      "path": "src/mathjax_src/output/common/Wrappers/scriptbase.js",
+      "precompiled_js": true,
+      "sha256": "894d56bacd79a7d046554a667dfdb855a4c0cff04b66f6111cd3c69f2929a39e",
+      "size": 16803
+    },
+    {
+      "index": 55,
+      "path": "src/mathjax_src/output/common/Wrappers/munderover.js",
+      "precompiled_js": true,
+      "sha256": "62552b461f85e2c83d639145eed2a7abd92701f78df475afd2be61f54823e071",
+      "size": 5813
+    },
+    {
+      "index": 56,
+      "path": "src/mathjax_src/output/common/Wrappers/mtr.js",
+      "precompiled_js": true,
+      "sha256": "dc38a805f9ebcaf7c2ebc6664a6a793a85cb7706a005e9403a9f98e617eb8b76",
+      "size": 3199
+    },
+    {
+      "index": 57,
+      "path": "src/mathjax_src/output/common/Wrappers/mtext.js",
+      "precompiled_js": true,
+      "sha256": "55799630f0d3dc380c33df5e16994d7ebe02bc94b7a5bb8da40f3646589349df",
+      "size": 4695
+    },
+    {
+      "index": 58,
+      "path": "src/mathjax_src/output/common/Wrappers/mtd.js",
+      "precompiled_js": true,
+      "sha256": "c3389c4b154ad8621498c21985ddad0f6a6d12c0d5cc921bf637a5c4ff0bba96",
+      "size": 1294
+    },
+    {
+      "index": 59,
+      "path": "src/mathjax_src/output/common/Wrappers/mtable.js",
+      "precompiled_js": true,
+      "sha256": "21bc7bc6cf51f9c1ae5b03de54a5620d50e773ed980f12c57c11cbdc74b3da3e",
+      "size": 29959
+    },
+    {
+      "index": 60,
+      "path": "src/mathjax_src/output/common/Wrappers/msubsup.js",
+      "precompiled_js": true,
+      "sha256": "2854e44ca44dfcf34d716c3e21d4d230564400624853825b7e9bcf2e09cbf784",
+      "size": 5072
+    },
+    {
+      "index": 61,
+      "path": "src/mathjax_src/output/common/Wrappers/msqrt.js",
+      "precompiled_js": true,
+      "sha256": "8c177a06295f2311eea221bdf301d387be6ac12907a53b9ed46a4bb87c5894df",
+      "size": 4179
+    },
+    {
+      "index": 62,
+      "path": "src/mathjax_src/output/common/Wrappers/mspace.js",
+      "precompiled_js": true,
+      "sha256": "107e34b22985003439afb475a1209b06c28e594a5a6f1acda0bfde3ead394ada",
+      "size": 2408
+    },
+    {
+      "index": 63,
+      "path": "src/mathjax_src/output/common/Wrappers/ms.js",
+      "precompiled_js": true,
+      "sha256": "b4d80b5d2b53fc68e6e400287783cf3fbdcfa8e099fde0ee8d36e8826c4814f9",
+      "size": 1482
+    },
+    {
+      "index": 64,
+      "path": "src/mathjax_src/output/common/Wrappers/mrow.js",
+      "precompiled_js": true,
+      "sha256": "c966be12c98c339c4fe4d359c61177017556247bb5240182a48227b224059f52",
+      "size": 9775
+    },
+    {
+      "index": 65,
+      "path": "src/mathjax_src/output/common/Wrappers/mroot.js",
+      "precompiled_js": true,
+      "sha256": "266997bba4dead267d67d85470a1007f19bfa79425b437e9bff2a235f18fe0fd",
+      "size": 2034
+    },
+    {
+      "index": 66,
+      "path": "src/mathjax_src/output/common/Wrappers/mpadded.js",
+      "precompiled_js": true,
+      "sha256": "cd449701f85bb864a25ffdbcf7dab7151e5fbd03f484c64405de321d28b4d2a2",
+      "size": 4541
+    },
+    {
+      "index": 67,
+      "path": "src/mathjax_src/output/common/Wrappers/mo.js",
+      "precompiled_js": true,
+      "sha256": "f2899bf8377eb0cb73437f1077598a4ae5ea0fde673d402b5a296629bda040c5",
+      "size": 14586
+    },
+    {
+      "index": 68,
+      "path": "src/mathjax_src/output/common/Wrappers/mn.js",
+      "precompiled_js": true,
+      "sha256": "c22b891d4e4b5265de0e4045999b33708ea11f39b2fee16ac78d099476a877f4",
+      "size": 833
+    },
+    {
+      "index": 69,
+      "path": "src/mathjax_src/output/common/Wrappers/mmultiscripts.js",
+      "precompiled_js": true,
+      "sha256": "2d4f7b0f8916e6c78f2a6f1562f418428ce4737195b03fc180c8ac6add76ee9d",
+      "size": 7374
+    },
+    {
+      "index": 70,
+      "path": "src/mathjax_src/output/common/Wrappers/mi.js",
+      "precompiled_js": true,
+      "sha256": "a58fbb08c66830390aca4f2fd124e9dbd625e40c9a61a88d2e7aff0eb70feeb6",
+      "size": 593
+    },
+    {
+      "index": 71,
+      "path": "src/mathjax_src/output/common/Wrappers/mglyph.js",
+      "precompiled_js": true,
+      "sha256": "e14e3e434bffa934d62f687166436b14a7eda46aa21d56280a5809abd27ea998",
+      "size": 2063
+    },
+    {
+      "index": 72,
+      "path": "src/mathjax_src/output/common/Wrappers/mfrac.js",
+      "precompiled_js": true,
+      "sha256": "4b689b04c61889c5d079e6bbbd472e0fb5db19f4e0c3d912789103d099cf8a47",
+      "size": 7938
+    },
+    {
+      "index": 73,
+      "path": "src/mathjax_src/output/common/Wrappers/mfenced.js",
+      "precompiled_js": true,
+      "sha256": "c3d64b7bebe575184cf0ef5ee82e57ac3b6be05e2998e6b8eae63110b05deead",
+      "size": 2629
+    },
+    {
+      "index": 74,
+      "path": "src/mathjax_src/output/common/Wrappers/menclose.js",
+      "precompiled_js": true,
+      "sha256": "a3db58976cf7faae65e91913264cc48d8e3ac4ee07e39864f2db96e138a91ce6",
+      "size": 7562
+    },
+    {
+      "index": 75,
+      "path": "src/mathjax_src/output/common/Wrappers/math.js",
+      "precompiled_js": true,
+      "sha256": "891099fa05d598cc9b32a37a5c384b8ec88157a84cfbf816d62ffcac0922e797",
+      "size": 1555
+    },
+    {
+      "index": 76,
+      "path": "src/mathjax_src/output/common/Wrappers/maction.js",
+      "precompiled_js": true,
+      "sha256": "7ffe58ecfcbb4c577ca98e4f24639ad9f59eeb6c15c158a86a7ae78b71501152",
+      "size": 3516
+    },
+    {
+      "index": 77,
+      "path": "src/mathjax_src/output/common/Wrappers/XmlNode.js",
+      "precompiled_js": true,
+      "sha256": "e188b2d5502fd591ce418d2583f4902dd5baaa2c657749ee85b0c8a595c6f4db",
+      "size": 5395
+    },
+    {
+      "index": 78,
+      "path": "src/mathjax_src/output/common/Wrappers/TextNode.js",
+      "precompiled_js": true,
+      "sha256": "55a827ec2f03ea1b0cd7925967a412f717e105f77132534d2e0a34981f43a25d",
+      "size": 4122
+    },
+    {
+      "index": 79,
+      "path": "src/mathjax_src/output/common/Wrappers/TeXAtom.js",
+      "precompiled_js": true,
+      "sha256": "ecab2f11f9f199cd6c08c2fc7cc6961141bcb71dbabefa62f5682a49950ba490",
+      "size": 838
+    },
+    {
+      "index": 80,
+      "path": "src/mathjax_src/output/common/WrapperFactory.js",
+      "precompiled_js": true,
+      "sha256": "25cc8193a8b00f4d088dc12779b71fabcb100c49ff37169854931c1044b7061b",
+      "size": 649
+    },
+    {
+      "index": 81,
+      "path": "src/mathjax_src/output/common/Wrapper.js",
+      "precompiled_js": true,
+      "sha256": "4913ff14dc4343eaf4294bddfa53cb2af3b6d190a40986ffae8803e1f14ca78c",
+      "size": 30230
+    },
+    {
+      "index": 82,
+      "path": "src/mathjax_src/output/common/Notation.js",
+      "precompiled_js": true,
+      "sha256": "0cce491c435a553a696083501a824b4955efc4b7bee2bb7ee6cebb73c12f2e08",
+      "size": 7885
+    },
+    {
+      "index": 83,
+      "path": "src/mathjax_src/output/common/LinebreakVisitor.js",
+      "precompiled_js": true,
+      "sha256": "bbbbb9fcb014b82202f314ddb91a7d0a1719fda014a3d3b7da4726d5c6fe2fd8",
+      "size": 25285
+    },
+    {
+      "index": 84,
+      "path": "src/mathjax_src/output/common/LineBBox.js",
+      "precompiled_js": true,
+      "sha256": "92485d2519a8856d44848f4d01e165e8c91d48c2320f8139671c4dc2987f081a",
+      "size": 2470
+    },
+    {
+      "index": 85,
+      "path": "src/mathjax_src/output/common/FontData.js",
+      "precompiled_js": true,
+      "sha256": "99d770a0ef8513b04cc1b746e1012c34ca708e6f3f0bb234d8ed4dfc7167fef2",
+      "size": 21773
+    },
+    {
+      "index": 86,
+      "path": "src/mathjax_src/output/common/Direction.js",
+      "precompiled_js": true,
+      "sha256": "5f8e29ee1940fff2d73437d17c660db13e81e63c92fcc2b2b44bde7c29aa836c",
+      "size": 495
+    },
+    {
+      "index": 87,
+      "path": "src/mathjax_src/output/common.js",
+      "precompiled_js": true,
+      "sha256": "36001a6593f4221bd958ef4ac1092734243d82632d71cefc5eb92aa470de92ab",
+      "size": 22796
+    },
+    {
+      "index": 88,
+      "path": "src/mathjax_src/mathjax.js",
+      "precompiled_js": true,
+      "sha256": "dc8bf747844ba60953b16ffc91ce351bde0bf51d529cbfb2df0990749f838934",
+      "size": 874
+    },
+    {
+      "index": 89,
+      "path": "src/mathjax_src/input/tex/base/BaseMethods.js",
+      "precompiled_js": true,
+      "sha256": "504e73eb60f6283c8478cdb41b9cae03627299c48599e14555460cbfc3da718a",
+      "size": 59115
+    },
+    {
+      "index": 90,
+      "path": "src/mathjax_src/input/tex/base/BaseMappings.js",
+      "precompiled_js": false,
+      "sha256": "fe1fee7f27618a612cf2d53c6dc09d8a622994905ea778241854c5dbe6d0be82",
+      "size": 823257
+    },
+    {
+      "index": 91,
+      "path": "src/mathjax_src/input/tex/base/BaseItems.js",
+      "precompiled_js": true,
+      "sha256": "ec08ae0b5c93dc4c429825aacbde7f16a71aa6db30b272d32c86b47963fd35e6",
+      "size": 41501
+    },
+    {
+      "index": 92,
+      "path": "src/mathjax_src/input/tex/base/BaseConfiguration.js",
+      "precompiled_js": true,
+      "sha256": "0f67dd2e501d5c8d92ac8ed5075fc5107863fd26da118b2982d064f526e9d0a2",
+      "size": 11204
+    },
+    {
+      "index": 93,
+      "path": "src/mathjax_src/input/tex/UnitUtil.js",
+      "precompiled_js": true,
+      "sha256": "95e79027737bc7c517e6c308e9728353c6405a1370094a3be5a749444f173756",
+      "size": 3569
+    },
+    {
+      "index": 94,
+      "path": "src/mathjax_src/input/tex/Types.js",
+      "precompiled_js": true,
+      "sha256": "a734ba6ac8fc6cc4dbc508c6ac6dd84e0df07d03e716628e2afdbe7c1e2688cb",
+      "size": 211
+    },
+    {
+      "index": 95,
+      "path": "src/mathjax_src/input/tex/TokenMap.js",
+      "precompiled_js": true,
+      "sha256": "8e75b8c60fc0e564acf214d2ce3a867bf0d00eff7b717d553b5579391940a9e7",
+      "size": 5234
+    },
+    {
+      "index": 96,
+      "path": "src/mathjax_src/input/tex/Token.js",
+      "precompiled_js": true,
+      "sha256": "9c8902467a6b66926d2e5bd931e7442e8fa7829f8c0fcfdc7f82bc5d85a44fc3",
+      "size": 1107
+    },
+    {
+      "index": 97,
+      "path": "src/mathjax_src/input/tex/TexParser.js",
+      "precompiled_js": true,
+      "sha256": "255a5edcd1fc0d98ae7b84492705bedeac490ae44a23cc3ac7854392a84f2a40",
+      "size": 17093
+    },
+    {
+      "index": 98,
+      "path": "src/mathjax_src/input/tex/TexError.js",
+      "precompiled_js": true,
+      "sha256": "6df8e59962c51db404623b2e97cc9dd8c4981b08fdc5df8f738a4cb84e54b52f",
+      "size": 1723
+    },
+    {
+      "index": 99,
+      "path": "src/mathjax_src/input/tex/TexConstants.js",
+      "precompiled_js": true,
+      "sha256": "21cc0d1e8ec448607a6551295a356132c788c2145e619d59be9de56be5294917",
+      "size": 3160
+    },
+    {
+      "index": 100,
+      "path": "src/mathjax_src/input/tex/Tags.js",
+      "precompiled_js": true,
+      "sha256": "8f073340ce8199850151d931c24584f97b3ba9829a2a81de64eb2ff6a22ed14e",
+      "size": 9881
+    },
+    {
+      "index": 101,
+      "path": "src/mathjax_src/input/tex/StackItemFactory.js",
+      "precompiled_js": true,
+      "sha256": "f934840ba3e7300a2a4bf8882da0e66ca272f353590ebe864ee4ff28e0cba8ec",
+      "size": 892
+    },
+    {
+      "index": 102,
+      "path": "src/mathjax_src/input/tex/StackItem.js",
+      "precompiled_js": true,
+      "sha256": "69d795826886c6bf49e8a3f8e5754aa6ea5802fe4a029f3c75d17c47f034bcb2",
+      "size": 5867
+    },
+    {
+      "index": 103,
+      "path": "src/mathjax_src/input/tex/Stack.js",
+      "precompiled_js": true,
+      "sha256": "fea0815b4ffdccd18515796d7420253d6afdd2ea5ca358acdf73ec53f0e4e44e",
+      "size": 2831
+    },
+    {
+      "index": 104,
+      "path": "src/mathjax_src/input/tex/ParseUtil.js",
+      "precompiled_js": true,
+      "sha256": "708b718bf58ed4dc03b96b1b18c124e5c08a63a53e4199f6ae7163106b03e2d3",
+      "size": 19849
+    },
+    {
+      "index": 105,
+      "path": "src/mathjax_src/input/tex/ParseOptions.js",
+      "precompiled_js": true,
+      "sha256": "47af558cc6a96c87503616a87b5a0fba769a565a7816904dc86a7b2d41a3852b",
+      "size": 4366
+    },
+    {
+      "index": 106,
+      "path": "src/mathjax_src/input/tex/ParseMethods.js",
+      "precompiled_js": true,
+      "sha256": "2305511a6478cbf465af37fa5399903e7afc4f52c6cf77f12b3ac408cfa3f7ad",
+      "size": 5404
+    },
+    {
+      "index": 107,
+      "path": "src/mathjax_src/input/tex/NodeUtil.js",
+      "precompiled_js": true,
+      "sha256": "60a9450398a6d758822c99ea0eb076022603f3c6bcd50600cfb506c6a55656ad",
+      "size": 4602
+    },
+    {
+      "index": 108,
+      "path": "src/mathjax_src/input/tex/NodeFactory.js",
+      "precompiled_js": true,
+      "sha256": "63a2cc69e13975ce989f63b4f362ad40ea90d4eb53a506768db1a8761350b763",
+      "size": 2462
+    },
+    {
+      "index": 109,
+      "path": "src/mathjax_src/input/tex/MapHandler.js",
+      "precompiled_js": true,
+      "sha256": "6f3c2f25e08b00f5a43b0bebb4f71cee9a7da03953745097069026d5f47cec8e",
+      "size": 5118
+    },
+    {
+      "index": 110,
+      "path": "src/mathjax_src/input/tex/HandlerTypes.js",
+      "precompiled_js": true,
+      "sha256": "9148364ea9fa97ae2306505f73addb44cfbabe5b036d213094f121493c33fc9e",
+      "size": 917
+    },
+    {
+      "index": 111,
+      "path": "src/mathjax_src/input/tex/FindTeX.js",
+      "precompiled_js": true,
+      "sha256": "5e39b193277a1f2956e62ab1b4841382488b5dfef69e5a8ca115d9ec640c6ef7",
+      "size": 4793
+    },
+    {
+      "index": 112,
+      "path": "src/mathjax_src/input/tex/FilterUtil.js",
+      "precompiled_js": true,
+      "sha256": "c403d28e9ece1807f19057cb39bcda0173a8376813ccaad08bfc16e1a0742938",
+      "size": 9269
+    },
+    {
+      "index": 113,
+      "path": "src/mathjax_src/input/tex/Configuration.js",
+      "precompiled_js": true,
+      "sha256": "fffcc87c061dad2af56752563288c8deb0a76f1f94a927a7c228eca1f03add74",
+      "size": 9083
+    },
+    {
+      "index": 114,
+      "path": "src/mathjax_src/input/tex/ColumnParser.js",
+      "precompiled_js": true,
+      "sha256": "742e28b74cde53cad36b716cc6eda7e743cef04a342b6c5cfb58b3cc3b95ed2c",
+      "size": 11180
+    },
+    {
+      "index": 115,
+      "path": "src/mathjax_src/input/tex.js",
+      "precompiled_js": true,
+      "sha256": "a5bb56af86e0eeaad6c8baf4f957335d0adf7e28b95c275e3d57562cebe9fc34",
+      "size": 6894
+    },
+    {
+      "index": 116,
+      "path": "src/mathjax_src/handlers/html/HTMLMathList.js",
+      "precompiled_js": true,
+      "sha256": "be2be0656227ffb3b548868cfbbf55e2b663bce1a43c88a216db4ecef76bd2e9",
+      "size": 490
+    },
+    {
+      "index": 117,
+      "path": "src/mathjax_src/handlers/html/HTMLMathItem.js",
+      "precompiled_js": true,
+      "sha256": "f8f154ecd8c9b5e853d5ef61befe72a77f5dab7ad7b792c23a7080ec5fc9dda6",
+      "size": 5009
+    },
+    {
+      "index": 118,
+      "path": "src/mathjax_src/handlers/html/HTMLDomStrings.js",
+      "precompiled_js": true,
+      "sha256": "35fae5be89b738c3086d4f1806a41aab50246730aa729ce24ba583b836328b9c",
+      "size": 5537
+    },
+    {
+      "index": 119,
+      "path": "src/mathjax_src/handlers/html/HTMLDocument.js",
+      "precompiled_js": true,
+      "sha256": "abf8f5edd4f4fd143539df627cb25371678c85ebdb15ffeeac1771425a6dc099",
+      "size": 7861
+    },
+    {
+      "index": 120,
+      "path": "src/mathjax_src/core/Tree/WrapperFactory.js",
+      "precompiled_js": true,
+      "sha256": "6787d56648d567e40c965c42eb90cc3a39dda8b8c647477df72a0ccb583e71d7",
+      "size": 637
+    },
+    {
+      "index": 121,
+      "path": "src/mathjax_src/core/Tree/Wrapper.js",
+      "precompiled_js": true,
+      "sha256": "b9aff698784088a9d288ddfa06e2e9751bc8615d4a59fbdd6a5d5448b6d151f7",
+      "size": 816
+    },
+    {
+      "index": 122,
+      "path": "src/mathjax_src/core/Tree/Visitor.js",
+      "precompiled_js": true,
+      "sha256": "ff26da02e10d952656d18df1272dc6274090bd51925086e2994209bfb1569ef9",
+      "size": 1774
+    },
+    {
+      "index": 123,
+      "path": "src/mathjax_src/core/Tree/NodeFactory.js",
+      "precompiled_js": true,
+      "sha256": "c89ed388ab358ff50cc92769c74956f24c26b70dcbbe7deac5e52599a2a62697",
+      "size": 639
+    },
+    {
+      "index": 124,
+      "path": "src/mathjax_src/core/Tree/Node.js",
+      "precompiled_js": true,
+      "sha256": "2d6c78a1eaffcfc96f5425a5583129cc8ea521de1617d3ea8aa7dd8f9c6ee93a",
+      "size": 3699
+    },
+    {
+      "index": 125,
+      "path": "src/mathjax_src/core/Tree/Factory.js",
+      "precompiled_js": true,
+      "sha256": "c72af395a7a849674778a926f6278da0127da7b47e4a0fcc910ec6c35463cf27",
+      "size": 1719
+    },
+    {
+      "index": 126,
+      "path": "src/mathjax_src/core/OutputJax.js",
+      "precompiled_js": true,
+      "sha256": "63cc8865679369d38e92567424962c92d851e21da3637dd86d1631a458f90ad7",
+      "size": 1643
+    },
+    {
+      "index": 127,
+      "path": "src/mathjax_src/core/MmlTree/OperatorDictionary.js",
+      "precompiled_js": true,
+      "sha256": "8bd2b80f74939b9df321b8fedeef91c6d33b77910b7a015134e13b271fe66c75",
+      "size": 106120
+    },
+    {
+      "index": 128,
+      "path": "src/mathjax_src/core/MmlTree/MmlNodes/semantics.js",
+      "precompiled_js": true,
+      "sha256": "d5aaadadb9441d1acc1135620db972c317374d2fc87689215b67a42737c5e762",
+      "size": 1779
+    },
+    {
+      "index": 129,
+      "path": "src/mathjax_src/core/MmlTree/MmlNodes/munderover.js",
+      "precompiled_js": true,
+      "sha256": "8e67c04adf86f211a9454cd5e2cddc1b0bc3e9fcdd40c8460d26543cd0dd56a4",
+      "size": 3540
+    },
+    {
+      "index": 130,
+      "path": "src/mathjax_src/core/MmlTree/MmlNodes/mtr.js",
+      "precompiled_js": true,
+      "sha256": "6141498ef1cf2523b96feb9129d916e164736331ff69ac1b013891b212ec44f1",
+      "size": 3828
+    },
+    {
+      "index": 131,
+      "path": "src/mathjax_src/core/MmlTree/MmlNodes/mtext.js",
+      "precompiled_js": true,
+      "sha256": "892b92cf606c447bb676904277e7ae9d050c05f3ef3fa986dd5390b4e4c0d947",
+      "size": 1239
+    },
+    {
+      "index": 132,
+      "path": "src/mathjax_src/core/MmlTree/MmlNodes/mtd.js",
+      "precompiled_js": true,
+      "sha256": "5ce18ccfe01fd130322b155cb095520189244c48685c11029956d41030752222",
+      "size": 1663
+    },
+    {
+      "index": 133,
+      "path": "src/mathjax_src/core/MmlTree/MmlNodes/mtable.js",
+      "precompiled_js": true,
+      "sha256": "1e45767b552303268dae4750047c2b4770eeb4df1eb34946edffc9d4c18c1e84",
+      "size": 4660
+    },
+    {
+      "index": 134,
+      "path": "src/mathjax_src/core/MmlTree/MmlNodes/msubsup.js",
+      "precompiled_js": true,
+      "sha256": "68008ae0053000efd107a543bc9305b6cbd8393f1f56cdfb5e7a2adbf5386e5a",
+      "size": 2079
+    },
+    {
+      "index": 135,
+      "path": "src/mathjax_src/core/MmlTree/MmlNodes/mstyle.js",
+      "precompiled_js": true,
+      "sha256": "68ebe29f47c60dc8cf0aff5931cfec77d441685700386a2029f141c0961c8688",
+      "size": 2618
+    },
+    {
+      "index": 136,
+      "path": "src/mathjax_src/core/MmlTree/MmlNodes/msqrt.js",
+      "precompiled_js": true,
+      "sha256": "909d5342605051d053e815078ac98a502b6818b7f0e3f4af5e17b28e0accafa1",
+      "size": 1341
+    },
+    {
+      "index": 137,
+      "path": "src/mathjax_src/core/MmlTree/MmlNodes/mspace.js",
+      "precompiled_js": true,
+      "sha256": "21cc51611251c80028edf6d2d19161cc414807464bdb4636253ca5886c06d277",
+      "size": 2034
+    },
+    {
+      "index": 138,
+      "path": "src/mathjax_src/core/MmlTree/MmlNodes/ms.js",
+      "precompiled_js": true,
+      "sha256": "7df477533cf6663f5220141c3a8bafee722776d5d9b9de1b7120585413d391bd",
+      "size": 857
+    },
+    {
+      "index": 139,
+      "path": "src/mathjax_src/core/MmlTree/MmlNodes/mrow.js",
+      "precompiled_js": true,
+      "sha256": "f3d750960f86c03426b01989d3b85127d7cc54e3aa6fc7443e24cf6eca5dce99",
+      "size": 3318
+    },
+    {
+      "index": 140,
+      "path": "src/mathjax_src/core/MmlTree/MmlNodes/mroot.js",
+      "precompiled_js": true,
+      "sha256": "0c0b2874fc6816f23f2a337b56311d44d0f3cac6f0edd183c990088cd5ab6af6",
+      "size": 1504
+    },
+    {
+      "index": 141,
+      "path": "src/mathjax_src/core/MmlTree/MmlNodes/mphantom.js",
+      "precompiled_js": true,
+      "sha256": "f2e83cd5bc461566b625893dcf4c37ef3402e3e234284e5138588fa5dd881bd1",
+      "size": 795
+    },
+    {
+      "index": 142,
+      "path": "src/mathjax_src/core/MmlTree/MmlNodes/mpadded.js",
+      "precompiled_js": true,
+      "sha256": "a9225e1a9dadc734bdbb0c53a85322a2680573a5b8c25b2bed513cf757b5002c",
+      "size": 1236
+    },
+    {
+      "index": 143,
+      "path": "src/mathjax_src/core/MmlTree/MmlNodes/mo.js",
+      "precompiled_js": true,
+      "sha256": "1953af0b93b9f5f7a6c5597df9856fd37d75bb319080e2f360debceabe78446d",
+      "size": 13500
+    },
+    {
+      "index": 144,
+      "path": "src/mathjax_src/core/MmlTree/MmlNodes/mn.js",
+      "precompiled_js": true,
+      "sha256": "2ce35c34973fd57af3bd88fc953a3ff01751bd81714d4351f45fdc745744d5f7",
+      "size": 776
+    },
+    {
+      "index": 145,
+      "path": "src/mathjax_src/core/MmlTree/MmlNodes/mmultiscripts.js",
+      "precompiled_js": true,
+      "sha256": "f10f506351080d4b7eaab9195443653adac3477b390dde7f21570f4cd646913d",
+      "size": 4028
+    },
+    {
+      "index": 146,
+      "path": "src/mathjax_src/core/MmlTree/MmlNodes/mi.js",
+      "precompiled_js": true,
+      "sha256": "a1c80bd3dc45c34ac9da8c03794acc1a81314e11a1172205382c905a379e6f2a",
+      "size": 2220
+    },
+    {
+      "index": 147,
+      "path": "src/mathjax_src/core/MmlTree/MmlNodes/mglyph.js",
+      "precompiled_js": true,
+      "sha256": "223e2bcd06a789f496f1a4c38f0e8d92f152e5eb7fe508d52f41af2d3732bb36",
+      "size": 1418
+    },
+    {
+      "index": 148,
+      "path": "src/mathjax_src/core/MmlTree/MmlNodes/mfrac.js",
+      "precompiled_js": true,
+      "sha256": "739c785475402aece542e2c0b7f2f9a20d88afee1101341a24100c7c6a5686d9",
+      "size": 2098
+    },
+    {
+      "index": 149,
+      "path": "src/mathjax_src/core/MmlTree/MmlNodes/mfenced.js",
+      "precompiled_js": true,
+      "sha256": "3701faf7e3d2edde63fe51b4587a5c20677f574b88a099472d899783d9406a1a",
+      "size": 4166
+    },
+    {
+      "index": 150,
+      "path": "src/mathjax_src/core/MmlTree/MmlNodes/merror.js",
+      "precompiled_js": true,
+      "sha256": "b4a7f444df62562706e8b6c8e864aec80f1bfdb26c91a71bfdbe3fff2f432705",
+      "size": 875
+    },
+    {
+      "index": 151,
+      "path": "src/mathjax_src/core/MmlTree/MmlNodes/menclose.js",
+      "precompiled_js": true,
+      "sha256": "1b10d6e19b93ca5b0ffb6c3f960da010f12f7303c20faa9e8c2c213a1d64067d",
+      "size": 1189
+    },
+    {
+      "index": 152,
+      "path": "src/mathjax_src/core/MmlTree/MmlNodes/mathchoice.js",
+      "precompiled_js": true,
+      "sha256": "ea901b2d8968867108f0594999c76efece9e1d911433b8cd56169c124a5b6ad1",
+      "size": 1260
+    },
+    {
+      "index": 153,
+      "path": "src/mathjax_src/core/MmlTree/MmlNodes/math.js",
+      "precompiled_js": true,
+      "sha256": "0f3ea19dbcd903ed579db79cdd759a4442184d66a1bb59f27dd782daed7cf5e3",
+      "size": 2752
+    },
+    {
+      "index": 154,
+      "path": "src/mathjax_src/core/MmlTree/MmlNodes/malignmark.js",
+      "precompiled_js": true,
+      "sha256": "fb36c632cb3bd9b0b6b7700dc740a0f83d9c7aaa26c5f4fbc5a5bb1b04ce3733",
+      "size": 830
+    },
+    {
+      "index": 155,
+      "path": "src/mathjax_src/core/MmlTree/MmlNodes/maligngroup.js",
+      "precompiled_js": true,
+      "sha256": "0ca4c8cf03dcaae6a914a8476cbffc751b72c78d8179e408364e5c2008ada11f",
+      "size": 1151
+    },
+    {
+      "index": 156,
+      "path": "src/mathjax_src/core/MmlTree/MmlNodes/maction.js",
+      "precompiled_js": true,
+      "sha256": "2bc6f976fb7aa2c4258ddf314600637fd454ba9c84ff2c590a6dc5fb0c01054d",
+      "size": 3279
+    },
+    {
+      "index": 157,
+      "path": "src/mathjax_src/core/MmlTree/MmlNodes/TeXAtom.js",
+      "precompiled_js": true,
+      "sha256": "bd472469ad92641af668858e7f8050f50b2533ee9ce28d4cf241003e7de9d797",
+      "size": 1383
+    },
+    {
+      "index": 158,
+      "path": "src/mathjax_src/core/MmlTree/MmlNodes/HtmlNode.js",
+      "precompiled_js": true,
+      "sha256": "68cdaffedeb36cfd3d4e940cb525df1f7442eec7c08c013358c52808cd17e160",
+      "size": 1745
+    },
+    {
+      "index": 159,
+      "path": "src/mathjax_src/core/MmlTree/MmlNode.js",
+      "precompiled_js": true,
+      "sha256": "968cef24d5110d9eea9bfa3abfbfcc591ecde8cdd40338013c05c43a60b23219",
+      "size": 20639
+    },
+    {
+      "index": 160,
+      "path": "src/mathjax_src/core/MmlTree/MmlFactory.js",
+      "precompiled_js": true,
+      "sha256": "8857e9a8d53f8eedae50108b3d089eb7f074a46ac077fe898f34f9e9313c964c",
+      "size": 656
+    },
+    {
+      "index": 161,
+      "path": "src/mathjax_src/core/MmlTree/MML.js",
+      "precompiled_js": true,
+      "sha256": "d3cbbb18d446be2aa63d9fb9cc7e91bcb42d6be219fb94c1b781cde965125fd6",
+      "size": 8071
+    },
+    {
+      "index": 162,
+      "path": "src/mathjax_src/core/MmlTree/Attributes.js",
+      "precompiled_js": true,
+      "sha256": "875ddcba9bff05b576729f01d1db0f56a0e2bfcedc9c563f5f12ced7ed1c08e6",
+      "size": 3239
+    },
+    {
+      "index": 163,
+      "path": "src/mathjax_src/core/MathList.js",
+      "precompiled_js": true,
+      "sha256": "75f9f7e5ce11bcecb205b996f877bfb9887ad527b67783dfa7c048da12883d75",
+      "size": 956
+    },
+    {
+      "index": 164,
+      "path": "src/mathjax_src/core/MathItem.js",
+      "precompiled_js": true,
+      "sha256": "9c7d313443ace678d60d4a5e9b790c399d0efa3b3dd7d830560ad8e812a4d886",
+      "size": 4414
+    },
+    {
+      "index": 165,
+      "path": "src/mathjax_src/core/MathDocument.js",
+      "precompiled_js": true,
+      "sha256": "a667d1dac4f3c9190ef6ea1c816537b5caad5f39ba2c5b952c386c62184de736",
+      "size": 19751
+    },
+    {
+      "index": 166,
+      "path": "src/mathjax_src/core/InputJax.js",
+      "precompiled_js": true,
+      "sha256": "d04c94a4f809364a24fb567dd501ab3249acbabb593e60ae452420c25d3fa702",
+      "size": 1688
+    },
+    {
+      "index": 167,
+      "path": "src/mathjax_src/core/HandlerList.js",
+      "precompiled_js": true,
+      "sha256": "32ac1a881b34d675d97b2d6a2e8a70eb58c3b3d6fde8356ae83051cd91a132da",
+      "size": 1117
+    },
+    {
+      "index": 168,
+      "path": "src/mathjax_src/core/Handler.js",
+      "precompiled_js": true,
+      "sha256": "79b58d07460a4f953b2601404b3b0387e04a0800373c9eb4d5c5a792fdb317de",
+      "size": 1025
+    },
+    {
+      "index": 169,
+      "path": "src/mathjax_src/core/FindMath.js",
+      "precompiled_js": true,
+      "sha256": "f4e38755c13fc549e78025f0bc02931a9840b03faaaa5394d280f37e0abf2a99",
+      "size": 618
+    },
+    {
+      "index": 170,
+      "path": "src/mathjax_src/core/DOMAdaptor.js",
+      "precompiled_js": true,
+      "sha256": "0cc7d198a770866b56ff9eef091a3e37bad41847e5f674e8d9aa51cd17fc7631",
+      "size": 2641
+    },
+    {
+      "index": 171,
+      "path": "src/mathjax_src/components/version.js",
+      "precompiled_js": true,
+      "sha256": "7a8f9a5d9bd7a13a69f39ed9080a9ff37c9b4e398c7a7705aac06edb19b4fdaf",
+      "size": 255
+    },
+    {
+      "index": 172,
+      "path": "src/mathjax_src/adaptors/liteAdaptor.js",
+      "precompiled_js": true,
+      "sha256": "5e96e387a5b69f91ff65b6081a34a055fba727f5e717fc8b6379958245cd50f0",
+      "size": 15287
+    },
+    {
+      "index": 173,
+      "path": "src/mathjax_src/adaptors/lite/Window.js",
+      "precompiled_js": true,
+      "sha256": "74991b6d176d297d39176801f7d0d212aaaefa692afc93aa7318870cd34a21d4",
+      "size": 939
+    },
+    {
+      "index": 174,
+      "path": "src/mathjax_src/adaptors/lite/Text.js",
+      "precompiled_js": true,
+      "sha256": "fd44852dba83f3cc73ef8aa9f18c21066ed16352c4a957f10f8c5b276952ce67",
+      "size": 652
+    },
+    {
+      "index": 175,
+      "path": "src/mathjax_src/adaptors/lite/Parser.js",
+      "precompiled_js": true,
+      "sha256": "6478f48ad4fd726fd3058ff6c90695eb666e2bb6a7adafbc38708571c7fe85bd",
+      "size": 9619
+    },
+    {
+      "index": 176,
+      "path": "src/mathjax_src/adaptors/lite/List.js",
+      "precompiled_js": true,
+      "sha256": "4543e2f61874b8d76bc6612214743c6d5dd3403762875e2486b5d111fdb7aa1e",
+      "size": 766
+    },
+    {
+      "index": 177,
+      "path": "src/mathjax_src/adaptors/lite/Element.js",
+      "precompiled_js": true,
+      "sha256": "4e5c9f145bee8cffd40a7b3d87799dcad5c07ec5ee5711916d484a5565e2c0db",
+      "size": 638
+    },
+    {
+      "index": 178,
+      "path": "src/mathjax_src/adaptors/lite/Document.js",
+      "precompiled_js": true,
+      "sha256": "a693ff6f1509667e071c57e01659e764ae4620d2379c3b7aae16f06389841773",
+      "size": 720
+    },
+    {
+      "index": 179,
+      "path": "src/mathjax_src/adaptors/NodeMixin.js",
+      "precompiled_js": true,
+      "sha256": "881fe7c6fd94e91533102194feac587643c9e8930f22f5a7fc8b4794bdeb0409",
+      "size": 3993
+    },
+    {
+      "index": 180,
+      "path": "src/mathjax_src/adaptors/HTMLAdaptor.js",
+      "precompiled_js": true,
+      "sha256": "c624713d47634186d5dadabf9b4dc9fb5add396cad93e3942922dde0b7c92c32",
+      "size": 11125
+    },
+    {
+      "index": 181,
+      "path": "src/mathjax_font/svg/upsmall.js",
+      "precompiled_js": true,
+      "sha256": "5f7cd3fdbbf042ae1f9dcb24841d1bc681a78a72ba10405d49089a59b254ddf9",
+      "size": 23297
+    },
+    {
+      "index": 182,
+      "path": "src/mathjax_font/svg/uplarge.js",
+      "precompiled_js": true,
+      "sha256": "d7aac9d3dda4fb5a0bbc78642234fab7752c7e0635525d36f18c7b7540591c44",
+      "size": 26030
+    },
+    {
+      "index": 183,
+      "path": "src/mathjax_font/svg/tex-variant.js",
+      "precompiled_js": true,
+      "sha256": "b90374af130f4e31c20241f2f4a67d02a8a3474d3bb8af5b1504c6d728f33cda",
+      "size": 18278
+    },
+    {
+      "index": 184,
+      "path": "src/mathjax_font/svg/tex-oldstyle.js",
+      "precompiled_js": true,
+      "sha256": "2630e288f49a134c7e0d00116ca49dc0d497ebe49b19d2827e23b63af8600c54",
+      "size": 4691
+    },
+    {
+      "index": 185,
+      "path": "src/mathjax_font/svg/tex-oldstyle-bold.js",
+      "precompiled_js": true,
+      "sha256": "24c98cf862dbb2a78c60dfb83a5b69d97b51a2b33c9308e2a1f67fe9654e879d",
+      "size": 4431
+    },
+    {
+      "index": 186,
+      "path": "src/mathjax_font/svg/tex-mathit.js",
+      "precompiled_js": true,
+      "sha256": "4c9bfa7bf193069f7dd0ef6db62fb92be2446e485f1fc7741da202655d3b4f6d",
+      "size": 36053
+    },
+    {
+      "index": 187,
+      "path": "src/mathjax_font/svg/tex-calligraphic.js",
+      "precompiled_js": true,
+      "sha256": "ffe018aa571deac727fa77c8dc919c5a3cd2a0b78e5843b3fbd15e8b3b718c09",
+      "size": 1668
+    },
+    {
+      "index": 188,
+      "path": "src/mathjax_font/svg/tex-calligraphic-bold.js",
+      "precompiled_js": true,
+      "sha256": "3e836f15bcf70779f9d98c3aa547894660fbe0cd6ad14c1239411aead63c004e",
+      "size": 265
+    },
+    {
+      "index": 189,
+      "path": "src/mathjax_font/svg/smallop.js",
+      "precompiled_js": true,
+      "sha256": "803b7fed4deee036bfedf9ffd98bef5038b2ee3fc25dedc4a697220fe6e69c4a",
+      "size": 18695
+    },
+    {
+      "index": 190,
+      "path": "src/mathjax_font/svg/size7.js",
+      "precompiled_js": true,
+      "sha256": "b867444fea781b8257cea5bef6ff37071c59c78220e6b474a1865b152a65ac77",
+      "size": 15699
+    },
+    {
+      "index": 191,
+      "path": "src/mathjax_font/svg/size6.js",
+      "precompiled_js": true,
+      "sha256": "3a8811b44a3c376a4f6295844610f7233b3b3b074405a1bc78731df4b4291b8d",
+      "size": 15260
+    },
+    {
+      "index": 192,
+      "path": "src/mathjax_font/svg/size5.js",
+      "precompiled_js": true,
+      "sha256": "62d096f07b78829ea875383d072f93731019130d334a869600ad377e52b04bde",
+      "size": 15230
+    },
+    {
+      "index": 193,
+      "path": "src/mathjax_font/svg/size4.js",
+      "precompiled_js": true,
+      "sha256": "2ca8ea84d072cb4dd2c0341a262c5a9e807e8df5d52bd349944c850f3d677f21",
+      "size": 14693
+    },
+    {
+      "index": 194,
+      "path": "src/mathjax_font/svg/size3.js",
+      "precompiled_js": true,
+      "sha256": "3893b25c1d1d160909406470b7b1a1d956a6ca43c38d0eed0ccfb4ceb9299a4c",
+      "size": 14394
+    },
+    {
+      "index": 195,
+      "path": "src/mathjax_font/svg/script.js",
+      "precompiled_js": true,
+      "sha256": "5da2407b6d6e8e051a9a92545dc3c43b52b877b017d445567cfcb69678fd5922",
+      "size": 237
+    },
+    {
+      "index": 196,
+      "path": "src/mathjax_font/svg/script-bold.js",
+      "precompiled_js": true,
+      "sha256": "4848829bbec0a390230ccf70881b4089739cca5fa8c800d1c6385044f0eef2ec",
+      "size": 246
+    },
+    {
+      "index": 197,
+      "path": "src/mathjax_font/svg/sans-serif.js",
+      "precompiled_js": true,
+      "sha256": "5cbc4786c3705be46bae5b8d7b61b0df1e1203bf69ab9809ec11ef6761a48dbf",
+      "size": 3869
+    },
+    {
+      "index": 198,
+      "path": "src/mathjax_font/svg/sans-serif-italic.js",
+      "precompiled_js": true,
+      "sha256": "d1d21513c3741cce370cb03a5a297df28f4cd208641651cba6a98b47e4a9f842",
+      "size": 3995
+    },
+    {
+      "index": 199,
+      "path": "src/mathjax_font/svg/sans-serif-bold.js",
+      "precompiled_js": true,
+      "sha256": "7db84184ebbbdfebc75ed37033d4081891563cf22655aae9b3a00776c2216d0d",
+      "size": 2731
+    },
+    {
+      "index": 200,
+      "path": "src/mathjax_font/svg/sans-serif-bold-italic.js",
+      "precompiled_js": true,
+      "sha256": "3f54f46f649716670562e6de40805d85fd8999641a97c1c7fa7cfc9a65bac4d6",
+      "size": 2813
+    },
+    {
+      "index": 201,
+      "path": "src/mathjax_font/svg/rt-bt.js",
+      "precompiled_js": true,
+      "sha256": "d7f775a3612fe863604265fd61d0ded799e100ffb7636cb46d4e00e6d236c572",
+      "size": 15191
+    },
+    {
+      "index": 202,
+      "path": "src/mathjax_font/svg/normal.js",
+      "precompiled_js": true,
+      "sha256": "b8b61876fa36810709404cab306adcaa5e7d97a4ce48299ee80821068f765371",
+      "size": 511847
+    },
+    {
+      "index": 203,
+      "path": "src/mathjax_font/svg/monospace.js",
+      "precompiled_js": true,
+      "sha256": "f4215108c7be3592565a7095e4893a741c420cb0430bae11e8031c490c197f7e",
+      "size": 4601
+    },
+    {
+      "index": 204,
+      "path": "src/mathjax_font/svg/lf-tp.js",
+      "precompiled_js": true,
+      "sha256": "350c033b6db7c707ab9ebe7351bbccd44f12a1354abff43a219c251d141a164c",
+      "size": 14836
+    },
+    {
+      "index": 205,
+      "path": "src/mathjax_font/svg/largeop.js",
+      "precompiled_js": true,
+      "sha256": "d2591ca514a4af08e29636e08874796401e9d729a531e4cb1396b0c3466f46f9",
+      "size": 55415
+    },
+    {
+      "index": 206,
+      "path": "src/mathjax_font/svg/italic.js",
+      "precompiled_js": true,
+      "sha256": "017da4139ffb6aed1150cc46ac613f526f1e4e18b8c70194202ec9841cb638d8",
+      "size": 42439
+    },
+    {
+      "index": 207,
+      "path": "src/mathjax_font/svg/fraktur.js",
+      "precompiled_js": true,
+      "sha256": "cd9eda444d79dcc5803a2fb6c4a7425ec2438ef59ceb733266102220a9a6c995",
+      "size": 239
+    },
+    {
+      "index": 208,
+      "path": "src/mathjax_font/svg/fraktur-bold.js",
+      "precompiled_js": true,
+      "sha256": "5bf94000f181c4fbad842c8ef692e21406db5d9625c400f4a2df7beec73e8824",
+      "size": 248
+    },
+    {
+      "index": 209,
+      "path": "src/mathjax_font/svg/ex-md.js",
+      "precompiled_js": true,
+      "sha256": "bd6f028b2966972916950f135c88fd8587924a5dc77cb73d2c35471f954e7b6b",
+      "size": 4540
+    },
+    {
+      "index": 210,
+      "path": "src/mathjax_font/svg/double-struck.js",
+      "precompiled_js": true,
+      "sha256": "52457f45ad77c00566081f18ec83d11af5fc3a371f8b76a7b5d6df38a659af72",
+      "size": 250
+    },
+    {
+      "index": 211,
+      "path": "src/mathjax_font/svg/delimiters.js",
+      "precompiled_js": true,
+      "sha256": "4e1ab1e8adb97570fd70312831bc470c09ed1c6df5a4bbdc0c385b432947c1c4",
+      "size": 37649
+    },
+    {
+      "index": 212,
+      "path": "src/mathjax_font/svg/default.js",
+      "precompiled_js": true,
+      "sha256": "961d0be89126a1a090293653f1bcc7bbe9294ce99f9f0c12571842d6c255ce0a",
+      "size": 370
+    },
+    {
+      "index": 213,
+      "path": "src/mathjax_font/svg/bold.js",
+      "precompiled_js": true,
+      "sha256": "e651b5e6a19d1c61aab166859abc96ca05cd81ca001db03e58d23186f38389c0",
+      "size": 35098
+    },
+    {
+      "index": 214,
+      "path": "src/mathjax_font/svg/bold-italic.js",
+      "precompiled_js": true,
+      "sha256": "5d8cefbe3ea7489b7770bb2a4b3e31e9b3ef5cf431b9475905f77276bce2a271",
+      "size": 39355
+    },
+    {
+      "index": 215,
+      "path": "src/mathjax_font/svg/bbold.js",
+      "precompiled_js": true,
+      "sha256": "37ac8df15295d97ba6b129403ac595119a937a03b227426eafe948b5aff88575",
+      "size": 36775
+    },
+    {
+      "index": 216,
+      "path": "src/mathjax_font/svg.js",
+      "precompiled_js": true,
+      "sha256": "ac6cca085a7298220da71359bbf4cf45e3426de99e81b7d8f4fa5843be89909c",
+      "size": 30469
+    },
+    {
+      "index": 217,
+      "path": "src/mathjax_font/common.js",
+      "precompiled_js": true,
+      "sha256": "7f409a54975619c5a67455cbaabe310629b5f7c7a6014d82927db6f254fd5731",
+      "size": 2017
+    },
+    {
+      "index": 218,
+      "path": "src/MathJax.js",
+      "precompiled_js": true,
+      "sha256": "c073fadf4136813ddfae22fdb9147eef42d2aa87d1d20ceaea070cf975a9bea7",
+      "size": 6320
+    },
+    {
+      "index": 219,
+      "path": "hash",
+      "precompiled_js": false,
+      "sha256": "ba86fd50cca15e416bf4477c4ad6eaf7ce4146e95c945cf2a309c1c4b706a885",
+      "size": 64
+    }
+  ],
+  "entry_count": 220,
+  "module": "build/math_jax.phase4.valdimodule",
+  "precompiled_js_entries": 218,
+  "raw_sha256": "6748f80169780840ef35e40eb0a4d15c18c2be47daec8345541297b58ca50a8f",
+  "raw_size": 2943912,
+  "source_js_entries": 1
+}

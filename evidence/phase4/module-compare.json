@@ -1,0 +1,10 @@
+{
+  "after_raw_sha256": "6748f80169780840ef35e40eb0a4d15c18c2be47daec8345541297b58ca50a8f",
+  "before_raw_sha256": "09dc2615b57a9175ea546de90953884a720950ae86be4d9e21929bc920c5efc8",
+  "changed_entries": [
+    "hash",
+    "src/mathjax_src/input/tex/base/BaseMappings.js"
+  ],
+  "entry_count": 220,
+  "unchanged_entries_verified": 218
+}

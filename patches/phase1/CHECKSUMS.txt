@@ -1,0 +1,15 @@
+# Original ChatGPT 1.2026.202 split APKs
+f1198e4434d610a80bc1dd40ec2a5c268303d79939e7bcb9fc1d78d1548fc7e5  original/base.apk
+6defac6da995c02846ed259fc048447599d21e29a18d71d61e0c0d7f4d50ae72  original/split_config.arm64_v8a.apk
+7fbf3d0849e747855aa0ed0f35680f1976657a4718abd55022f4c0d9fdf67e04  original/split_config.en.apk
+72e32fc131bb839eb152987a4a2a29c85baed157822e508216f85721a98a8ef3  original/split_config.xxhdpi.apk
+
+# Patched exact-size DEX payloads (temporary build paths)
+90c1471789203877ba5a652d85652a32104a7660b57009c03a0f18061f638760  .build.*/inject/classes4.dex
+35c92b73f2aa7f3c7a87b7483bdbe65d314d80fd80769ddc56057ae1d604432d  .build.*/inject/classes5.dex
+
+# Locally signed deterministic patched split APKs
+facf0fb1d58d91e351950e7a7fc7cf5dac28d48ae3f91695187fa80b3f78c9d2  output/chatgpt-1.2026.202-native-latex/base.apk
+13e5423688ef2f3ef896efc18d9c6fbc65bdaa27a2be7706518211203c15aac4  output/chatgpt-1.2026.202-native-latex/split_config.arm64_v8a.apk
+1e312cfd15406a7f329ec0a8100b3314fb7d4bef0319a8f27b6788a9c6e79a02  output/chatgpt-1.2026.202-native-latex/split_config.en.apk
+cd6c3afd6c65cbf6a60508975fefd5211f4895c345239c040ab6fcdc21c3c51b  output/chatgpt-1.2026.202-native-latex/split_config.xxhdpi.apk

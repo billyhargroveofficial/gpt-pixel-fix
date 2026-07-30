@@ -1,0 +1,99 @@
+{
+  "mathjax_version": "4.1.1",
+  "font_version": "4.1.1",
+  "cases": [
+    {
+      "name": "xrightarrow-with-over-and-under",
+      "source": "A \\xrightarrow[under]{over} B",
+      "output_bytes": 8622,
+      "svg_path_count": 13,
+      "has_merror": false,
+      "async_sentinels_remaining": null
+    },
+    {
+      "name": "aligned-environment",
+      "source": "\\begin{aligned} a &= b+c \\\\ d &= \\frac{1}{2} \\end{aligned}",
+      "output_bytes": 5509,
+      "svg_path_count": 9,
+      "has_merror": false,
+      "async_sentinels_remaining": null
+    },
+    {
+      "name": "lVert-rVert-delimiters",
+      "source": "\\left\\lVert x \\right\\rVert",
+      "output_bytes": 1958,
+      "svg_path_count": 3,
+      "has_merror": false,
+      "async_sentinels_remaining": null
+    },
+    {
+      "name": "mathcal-complete-uppercase",
+      "source": "\\mathcal{ABCDEFGHIJKLMNOPQRSTUVWXYZ}",
+      "output_bytes": 20204,
+      "svg_path_count": 26,
+      "has_merror": false,
+      "async_sentinels_remaining": 0
+    },
+    {
+      "name": "mathbb",
+      "source": "\\mathbb{R}",
+      "output_bytes": 1439,
+      "svg_path_count": 1,
+      "has_merror": false,
+      "async_sentinels_remaining": null
+    },
+    {
+      "name": "operatorname",
+      "source": "\\operatorname{Var}(X) + \\operatorname*{arg\\,max}_{x} f(x)",
+      "output_bytes": 11770,
+      "svg_path_count": 20,
+      "has_merror": false,
+      "async_sentinels_remaining": null
+    },
+    {
+      "name": "cases-environment",
+      "source": "f(x)=\\begin{cases}x^2,&x\\ge0\\\\-x,&x<0\\end{cases}",
+      "output_bytes": 10342,
+      "svg_path_count": 18,
+      "has_merror": false,
+      "async_sentinels_remaining": null
+    },
+    {
+      "name": "cyrillic-text",
+      "source": "\\text{кириллица}",
+      "output_bytes": 5521,
+      "svg_path_count": 9,
+      "has_merror": false,
+      "async_sentinels_remaining": null
+    },
+    {
+      "name": "exact-cyrillic-aligned-from-cpt-chat",
+      "source": "\\begin{aligned}\n&\\mathbb E X_{n,i}=0,\\\\\n&v_{n,i}:=\\mathbb E X_{n,i}^2,\\\\\n&\\sum_{i=1}^{m_n}v_{n,i}=1,\\\\\n&L_n(\\delta):=\\sum_{i=1}^{m_n}\\mathbb E\\left[\nX_{n,i}^2;|X_{n,i}|>\\delta\\right]\\longrightarrow0\n\\qquad\\text{для каждого }\\delta>0.\n\\end{aligned}",
+      "output_bytes": 47622,
+      "svg_path_count": 82,
+      "has_merror": false,
+      "async_sentinels_remaining": null
+    }
+  ],
+  "font_tables": {
+    "-tex-calligraphic": {
+      "uppercase_svg_glyph_count": 26,
+      "async_sentinels_remaining": 0
+    },
+    "-tex-bold-calligraphic": {
+      "uppercase_svg_glyph_count": 26,
+      "async_sentinels_remaining": 0
+    },
+    "cyrillic": {
+      "tested_code_points": [
+        "U+43A",
+        "U+438",
+        "U+440",
+        "U+43B",
+        "U+446",
+        "U+430"
+      ],
+      "svg_glyph_count": 6
+    }
+  }
+}

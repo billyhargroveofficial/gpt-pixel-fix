@@ -1,0 +1,72 @@
+Verifies
+Verified using v1 scheme (JAR signing): false
+Verified using v2 scheme (APK Signature Scheme v2): false
+Verified using v3 scheme (APK Signature Scheme v3): true
+Verified using v3.1 scheme (APK Signature Scheme v3.1): false
+Verified using v3.2 scheme (APK Signature Scheme v3.2): false
+Verified using v4 scheme (APK Signature Scheme v4): false
+Verified for SourceStamp: false
+Number of signers: 1
+V3.0 Signer: certificate DN: CN=Android Debug, O=Android, C=US
+V3.0 Signer: certificate SHA-256 digest: cfbcc4201c9c66b8fdcc912bdbbf6706aa061b464eea8fca03a718b16b41ec80
+V3.0 Signer: certificate SHA-1 digest: 6808103bc56c4e4102f5f4abeaf4f5d35c6234e0
+V3.0 Signer: certificate MD5 digest: efdfbc74d95afb91cd2570e9f6118139
+V3.0 Signer: key algorithm: RSA
+V3.0 Signer: key size (bits): 2048
+V3.0 Signer: public key SHA-256 digest: b1314e212ab72b3028b119cdf3aed994acc69281799e3f06882689b240f2425c
+V3.0 Signer: public key SHA-1 digest: aebe3759fc5b2916e0afa6f630ba7ced7f45d860
+V3.0 Signer: public key MD5 digest: aa883e0b1204c45d3387541ad184c67e
+Verifies
+Verified using v1 scheme (JAR signing): false
+Verified using v2 scheme (APK Signature Scheme v2): false
+Verified using v3 scheme (APK Signature Scheme v3): true
+Verified using v3.1 scheme (APK Signature Scheme v3.1): false
+Verified using v3.2 scheme (APK Signature Scheme v3.2): false
+Verified using v4 scheme (APK Signature Scheme v4): false
+Verified for SourceStamp: false
+Number of signers: 1
+V3.0 Signer: certificate DN: CN=Android Debug, O=Android, C=US
+V3.0 Signer: certificate SHA-256 digest: cfbcc4201c9c66b8fdcc912bdbbf6706aa061b464eea8fca03a718b16b41ec80
+V3.0 Signer: certificate SHA-1 digest: 6808103bc56c4e4102f5f4abeaf4f5d35c6234e0
+V3.0 Signer: certificate MD5 digest: efdfbc74d95afb91cd2570e9f6118139
+V3.0 Signer: key algorithm: RSA
+V3.0 Signer: key size (bits): 2048
+V3.0 Signer: public key SHA-256 digest: b1314e212ab72b3028b119cdf3aed994acc69281799e3f06882689b240f2425c
+V3.0 Signer: public key SHA-1 digest: aebe3759fc5b2916e0afa6f630ba7ced7f45d860
+V3.0 Signer: public key MD5 digest: aa883e0b1204c45d3387541ad184c67e
+Verifies
+Verified using v1 scheme (JAR signing): false
+Verified using v2 scheme (APK Signature Scheme v2): false
+Verified using v3 scheme (APK Signature Scheme v3): true
+Verified using v3.1 scheme (APK Signature Scheme v3.1): false
+Verified using v3.2 scheme (APK Signature Scheme v3.2): false
+Verified using v4 scheme (APK Signature Scheme v4): false
+Verified for SourceStamp: false
+Number of signers: 1
+V3.0 Signer: certificate DN: CN=Android Debug, O=Android, C=US
+V3.0 Signer: certificate SHA-256 digest: cfbcc4201c9c66b8fdcc912bdbbf6706aa061b464eea8fca03a718b16b41ec80
+V3.0 Signer: certificate SHA-1 digest: 6808103bc56c4e4102f5f4abeaf4f5d35c6234e0
+V3.0 Signer: certificate MD5 digest: efdfbc74d95afb91cd2570e9f6118139
+V3.0 Signer: key algorithm: RSA
+V3.0 Signer: key size (bits): 2048
+V3.0 Signer: public key SHA-256 digest: b1314e212ab72b3028b119cdf3aed994acc69281799e3f06882689b240f2425c
+V3.0 Signer: public key SHA-1 digest: aebe3759fc5b2916e0afa6f630ba7ced7f45d860
+V3.0 Signer: public key MD5 digest: aa883e0b1204c45d3387541ad184c67e
+Verifies
+Verified using v1 scheme (JAR signing): false
+Verified using v2 scheme (APK Signature Scheme v2): false
+Verified using v3 scheme (APK Signature Scheme v3): true
+Verified using v3.1 scheme (APK Signature Scheme v3.1): false
+Verified using v3.2 scheme (APK Signature Scheme v3.2): false
+Verified using v4 scheme (APK Signature Scheme v4): false
+Verified for SourceStamp: false
+Number of signers: 1
+V3.0 Signer: certificate DN: CN=Android Debug, O=Android, C=US
+V3.0 Signer: certificate SHA-256 digest: cfbcc4201c9c66b8fdcc912bdbbf6706aa061b464eea8fca03a718b16b41ec80
+V3.0 Signer: certificate SHA-1 digest: 6808103bc56c4e4102f5f4abeaf4f5d35c6234e0
+V3.0 Signer: certificate MD5 digest: efdfbc74d95afb91cd2570e9f6118139
+V3.0 Signer: key algorithm: RSA
+V3.0 Signer: key size (bits): 2048
+V3.0 Signer: public key SHA-256 digest: b1314e212ab72b3028b119cdf3aed994acc69281799e3f06882689b240f2425c
+V3.0 Signer: public key SHA-1 digest: aebe3759fc5b2916e0afa6f630ba7ced7f45d860
+V3.0 Signer: public key MD5 digest: aa883e0b1204c45d3387541ad184c67e
