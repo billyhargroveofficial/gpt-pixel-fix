@@ -21,5 +21,17 @@ synthetic. `make-minimal-conversation-db.sh` and
 local Statsig override. It must not be pointed at a physical phone.
 
 The original Google/Vanadium provider A/B is in
-`webview-ab-results.tsv`. Additional Android 16/17 matched controls are
-documented in `docs/rom-research-full.md`.
+`webview-ab-results.tsv`. The 12 primary Android 16/17 renderer rows plus six
+bidirectional WebView 133/145 cross-install rows are in
+`android16-17-primary.tsv`; full-factorial conditions are documented in
+`docs/android16-17-matched-control.md`.
+
+`graphene-native-build.tsv` contains the six full GrapheneOS source-build
+runs: three with the native renderer and three with the one-WebView-per-
+formula renderer.
+
+The practical response-format mitigation is in `formula-grouping.tsv`.
+It compares 12 display blocks of 10 aligned rows and one display block of 120
+aligned rows against the 120-separate-block baseline. Its methodology,
+content audits and prompt template are documented in
+`docs/formula-grouping-workaround.md`.

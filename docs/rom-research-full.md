@@ -5,12 +5,16 @@
 phase-4 APK с сохранением существующей сессии приложения. Это не тест
 GrapheneOS на физическом устройстве.
 
-Обновление после исходного отчёта: matched host-GPU контроль обнаружил
-крупную регрессию плохого WebView-пути в комбинированном
-Android-17/WebView-145 image относительно Android-16/WebView-133. При
-gate=false API 36 дал 4,36–9,88% jank и p50 18–19 мс, а API 37 —
-61,89–83,06% и p50 85–109 мс. На том же API 37 gate=true дал 0 WebViews,
-0,63–1,26% steady-state jank и p50 16 мс. Полный новый контроль находится в
+Обновление после исходного отчёта: matched host-GPU и cross-install контроли
+локализовали усилитель в современном WebView. При gate=false API 36 с
+WebView 133 дал 4,36–9,88% jank и p50 18–19 мс. После установки на тот же API
+36 точного официального WebView 145 результат стал 68,54–81,19% и p50
+81–85 мс. API 37 с тем же WebView 145 дал 61,89–83,06% и p50 85–109 мс.
+Обратная установка matching Trichrome/WebView 133 на API 37 вернула
+0,00–8,21% и p50 16 мс.
+На API 37 gate=true дал 0 WebViews, 0,63–1,26% steady-state jank и p50 16 мс.
+Android 17 не является основной причиной: результат следует за поколением
+WebView в обе стороны. Полный контроль находится в
 `docs/android16-17-matched-control.md`.
 
 ## Уже установленная причина
@@ -92,11 +96,14 @@ host GPU, где нет Tensor, Mali и Pixel firmware:
 гипотеза «Pixel GPU медленно рисует формулы» почти исключена. Основная цена
 возникает на CPU-side обходе множества View/WebView и синхронизации потоков.
 
-Остаются конфаундеры: Honor работает на Android 16, использует Snapdragon 8
-Gen 3 и OEM scheduling MagicOS; контролируемые Pixel/AVD тесты были на API
-37. Они могут менять степень тяжести уже существующего дефекта. Разрешение
-тоже влияет на абсолютный jank, но разница площади экрана Pixel 9 Pro XL и
-Honor 400 Pro невелика и не объясняет переход от «непригодно» к «плавно».
+Cross-install устранил главный прежний конфаундер: Android 16 остаётся тем же,
+но замена WebView 133 на WebView 145 переносит на него катастрофический лаг.
+Обратная замена matching Trichrome/WebView 133 на API 37 убирает его.
+Поэтому версия Android сама по себе не объясняет различие. У Honor остаются
+другой аккаунтный cohort, WebView/provider build, Snapdragon 8 Gen 3 и OEM
+scheduling MagicOS. Разрешение тоже влияет на абсолютный jank, но разница
+площади экрана Pixel 9 Pro XL и Honor 400 Pro невелика и не объясняет переход
+от «непригодно» к «плавно».
 
 Минимальный решающий тест, когда Honor снова будет доступен:
 
@@ -185,47 +192,93 @@ Vanadium не устраняет архитектуру «один WebView на 
 
 Полные сырые результаты: `webview-ab-results.tsv`.
 
-## Предварительный вывод по прошивкам
+## Вывод по прошивкам
 
 - GrapheneOS поддерживает Pixel 9 Pro XL (`komodo`) и использует Vanadium как
-  системный WebView, но уже выполненный прямой provider A/B не дал исправления.
+  системный WebView. Stable `2026071500` работает на Android 17 и содержит
+  Vanadium `150.0.7871.124`; beta `2026072900` содержит
+  `151.0.7922.47`. Обе эти точные версии уже проверены прямым provider A/B и
+  не дали исправления.
+- Cross-install официального Google WebView 145 на API 36 перенёс тяжёлую
+  регрессию с собой, а matching WebView 133 на API 37 убрал её. Версия Android
+  не является основной причиной. Актуальные Chromium providers, а не только
+  версия прошивки, критичны для плохой ветки.
 - В исходниках stable `2026071500` для сторонних приложений
   `setting_default_restrict_webview_dyn_code_loading=false`, то есть WebView
   JIT разрешён по умолчанию. Android Runtime JIT при этом выключен и заменён
-  full AOT. Переключатель WebView JIT будет проверен отдельно на полной
-  сборке.
-- CalyxOS использует собственную сборку Chromium WebView.
-- LineageOS использует AOSP Chromium WebView; Google Play ставится отдельно.
+  full AOT. Полная сборка с этим штатным состоянием всё равно дала
+  91,79–100% jank в WebView condition.
+- Последний GrapheneOS на Android 16, `2026061600`, содержал Vanadium 140.
+  Он находится до обнаруженной WebView-145-era регрессии и потому
+  теоретически интересен, но точная комбинация не тестировалась, ветка уже не
+  текущая, downgrade защищён rollback index, а заморозка старого OS/WebView
+  небезопасна.
+- Текущий CalyxOS stable `7.2.2.0` использует Chromium/WebView
+  `149.0.7827.48`. Точный provider не тестировался, но Android 16 +
+  WebView 145 уже был катастрофически медленным, а проверенные 150/151 тоже
+  остались медленными. Поэтому Android 16 у CalyxOS не является основанием
+  ожидать исправление.
+- Текущий LineageOS `23.2` официально собирается для `komodo` и использует
+  AOSP Chromium WebView 150. Точная LineageOS-сборка не тестировалась; по
+  поколению provider и неизменному account gate вероятность исправления
+  низкая.
 - Для GrapheneOS, CalyxOS, LineageOS, iodéOS, crDroid и /e/OS не найдено
   воспроизводимого отчёта, где прошивка исправила именно ChatGPT +
   LaTeX-heavy scroll.
 - Смена ROM не меняет server-side cohort того же OpenAI `userID` и не может
   объединить 149 WebView, которые создаёт само приложение.
+- Намеренно фиксировать WebView 133 на основном телефоне небезопасно: это
+  security-critical компонент, а старая версия не получает последующие
+  исправления уязвимостей.
 
 Официальные источники:
 
 - GrapheneOS build guide: https://grapheneos.org/build
 - GrapheneOS releases: https://grapheneos.org/releases
 - Vanadium: https://grapheneos.org/features#vanadium
+- GrapheneOS WebView/Vanadium usage:
+  https://grapheneos.org/usage#web-browsing
 - Sandboxed Google Play: https://grapheneos.org/usage#sandboxed-google-play
 - GrapheneOS installation: https://grapheneos.org/install/web
+- GrapheneOS downgrade protection: https://grapheneos.org/usage#updates
 - CalyxOS installation: https://calyxos.org/install/
 - CalyxOS Chromium/WebView: https://calyxos.org/docs/development/build/chromium/
+- CalyxOS `7.2.2.0` Chromium/WebView tag:
+  https://gitlab.com/CalyxOS/lfs_prebuilts_calyx_chromium_arm64/-/tags/7.2.2.0
 - LineageOS `komodo` metadata:
   https://github.com/LineageOS/lineage_wiki/blob/main/_data/devices/komodo.yml
+- LineageOS current build targets:
+  https://raw.githubusercontent.com/LineageOS/hudson/main/lineage-build-targets
+- LineageOS Chromium WebView 150 update:
+  https://github.com/LineageOS/android_external_chromium-webview_prebuilt_arm64/commit/aca8d63899707c568d48c412e2c34a8c11c4dd12
 
 ## Полная GrapheneOS-проверка
 
-Синхронизируется проверенный официальный stable source tag `2026071500`
-(Android 17). Планируется:
+Полная тестовая сборка из stable source tag `2026071500` завершена. Был создан
+отдельный `userdebug` emulator product на Android 17 с системным Vanadium
+`150.0.7871.124.0`. Неизменённый официальный ARM64-only split APK ChatGPT
+`1.2026.202` (`2620225`) запускался через test-only ARM64 native bridge.
+Сеть эмулятора была `VALIDATED`; сервер вернул длинные ответы, после чего
+измерялся именно клиентский scroll/render workload.
 
-1. собрать и загрузить `sdk_phone64_x86_64-cur-userdebug`;
-2. проверить системный Vanadium, JIT и runtime-настройки;
-3. создать отдельный тестовый emulator product с ARM64 native bridge для
-   официального ARM64-only ChatGPT APK;
-4. повторить тест тяжёлого LaTeX;
-5. не переносить тестовый proprietary translator или ослабления userdebug на
-   физический телефон.
+Один и тот же prompt запросил 120 отдельных простых display-формул. Сервер
+выдал 118 формульных узлов в native condition и 114 в WebView condition.
+Количество немного различается из-за недетерминированного ответа модели, но
+выражение, структура отдельных блоков, APK, OS, provider, экран и 48 свайпов
+оставались одинаковыми.
+
+| Условие | Формульные узлы | WebView | Jank, три прогона | p50 |
+|---|---:|---:|---:|---:|
+| gate=true, native renderer | 118 | 0 | 2,12%; 2,91%; 0,00% | 17–18 мс |
+| gate=false, WebView renderer | 114 | 114 | 91,79%; 96,41%; 100,00% | 73 мс |
+
+Этот тест напрямую воспроизводит исходный дефект на GrapheneOS: смена только
+renderer gate превратила плавный официальный клиент в почти полностью
+тормозные кадры. Поэтому вывод больше не основан лишь на установке Vanadium в
+Google AVD. Сама полная GrapheneOS runtime-среда также не исправляет плохой
+cohort.
+
+Сырые строки находятся в `experiments/graphene-native-build.tsv`.
 
 Официальный ChatGPT APK выпускается только с ARM64 split. Поэтому x86_64
 эмулятор GrapheneOS требует тестового ABI bridge. Такая сборка пригодна для
@@ -239,3 +292,10 @@ GrapheneOS и не доказывает её security properties.
 На текущих данных ожидаемая вероятность исправления низкая: тот же Vanadium
 уже проверен напрямую и оставил 149 WebView. Физическая прошивка не должна
 выполняться без отдельного явного разрешения и резервной копии.
+
+Root/Magisk позволяет изменить приватный Statsig override у официально
+подписанного APK и действительно включает быстрый native renderer, но требует
+unlocked bootloader и ослабляет verified boot. Это может нарушить Play
+Integrity, Wallet, банковские приложения, DRM и обычный OTA-процесс.
+GrapheneOS root не поддерживает. Такой эксперимент разумен только на отдельном
+тестовом устройстве и не рекомендуется для основного Pixel.

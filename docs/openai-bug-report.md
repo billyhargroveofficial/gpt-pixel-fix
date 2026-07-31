@@ -16,17 +16,30 @@ The exact 1,965-character form text is reproduced at the end of this file.
 ## Post-submission evidence added to the linked repository
 
 After submission, a clean matched host-GPU matrix found that the bad
-120-WebView path is dramatically amplified by the combined Android
-17/WebView 145 image:
+120-WebView path is dramatically amplified by WebView 145:
 
 - Android 16/WebView 133, gate false: 4.36–9.88% jank, p50 18–19 ms;
+- Android 16/WebView 145, gate false: 68.54–81.19% jank, p50 81–85 ms;
+- Android 17/WebView 133, gate false: 0.00–8.21% jank, p50 16 ms;
 - Android 17/WebView 145, gate false: 61.89–83.06% jank, p50 85–109 ms;
 - Android 17/WebView 145, gate true: 0.63–1.26% steady-state jank,
   p50 16 ms.
 
-The exact response and APK were byte-identical across conditions. Android
-version and WebView version changed together, so their individual
-contributions still require a cross-install control.
+The Android 16/WebView 145 condition cross-installed the exact official
+WebView APK from the API 37 image and verified it as both the selected
+provider and the package mapped by the renderer process. The response and
+ChatGPT APK were byte-identical across conditions. The regression therefore
+follows WebView 145 onto Android 16. A reverse install of matching Trichrome
+133 and WebView 133 removed it from Android 17. Android version is not the
+primary cause.
+
+A later response-structure control on the same Android 17/WebView 145/gate
+false environment reduced 120 equation rows from 120 separate display blocks
+to 12 `aligned` blocks of 10 rows. WebView count fell from 120 to 12 and jank
+fell from `61.89–83.06%` to `0.00–1.00%`, with every reported frame-time
+percentile at 16 ms. This confirms that the fallback cost tracks retained
+math-block WebViews and provides an immediate user-side mitigation, while the
+application-level fix remains necessary.
 
 ## Subject
 

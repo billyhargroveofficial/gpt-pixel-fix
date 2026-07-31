@@ -1,0 +1,7 @@
+condition	run	formula_nodes	webviews	total_frames	janky_frames	jank_percent	p50_ms	p90_ms	p95_ms	p99_ms	total_pss_kb	total_rss_kb
+native_gate_true	1	118	0	614	13	2.12	17	21	23	27	460458	633644
+native_gate_true	2	118	0	618	18	2.91	18	23	25	31	439681	612860
+native_gate_true	3	118	0	651	0	0.00	17	18	18	20	437189	610368
+webview_gate_false	1	114	114	329	302	91.79	73	81	250	350	519579	732480
+webview_gate_false	2	114	114	334	322	96.41	73	77	81	300	534839	747752
+webview_gate_false	3	114	114	329	329	100.00	73	77	81	81	494622	707536
