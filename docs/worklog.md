@@ -32,6 +32,14 @@ heavy chat reported zero WebViews at inspection, visible formulas in tested
 sections, and a large subjective scrolling improvement. Inline layout and
 some lifecycle blanks remain.
 
+Later, after explicit approval for a destructive factory flash and confirmed
+backups, the same Pixel was downgraded to Google's official Android 16 build
+`BP2A.250605.031.A2`. The untouched official ChatGPT `1.2026.202` completed a
+fresh login and used WebView/Chrome `133.0.6943.137`. In the real heavy chat,
+24 automated swipes produced 655 frames, `0.92%` deadline jank, p50 `6 ms`,
+and p99 `21 ms`. This closed the remaining emulator-to-physical-device gap in
+the WebView-version causal test.
+
 ## OpenAI report
 
 On `2026-07-31T01:25+03:00`, the built-in ChatGPT web command

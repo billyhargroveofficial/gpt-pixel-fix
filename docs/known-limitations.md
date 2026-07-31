@@ -25,6 +25,29 @@
   does not prove that a fresh login works.
 - Play Store cannot update the locally signed package.
 
+These signing limitations apply to the patched build. The later stock
+Android 16/WebView 133 control used the untouched Google Play-signed ChatGPT
+package and completed a fresh sign-in successfully.
+
+## Frozen legacy stack
+
+- The working physical stock control is Android 16 build
+  `BP2A.250605.031.A2` with security patch `2025-06-05` and WebView/Chrome
+  `133.0.6943.137`. It intentionally lacks later browser and OS security
+  fixes.
+- Disabling Play Store prevents its normal app/Mainline delivery, and the
+  official developer option `ota_disable_automatic_update=1` disables
+  automatic OTA application. This is a practical pin, not a cryptographic
+  guarantee that the device can never download or offer an update.
+- Android 16 protects Google Play Services OTA components from component-level
+  ADB disabling. The attempted `pm disable-user` calls fail with
+  `SecurityException`; the repository does not claim otherwise.
+- A truly immutable pin requires stronger controls such as root/device-owner
+  management or network enforcement, each with substantial security and
+  usability costs.
+- The bootloader remained unlocked for the downgrade experiment, further
+  reducing physical-device security.
+
 ## Scope
 
 Offsets and hashes are valid only for `1.2026.202`. The project intentionally

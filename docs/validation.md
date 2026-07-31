@@ -136,7 +136,35 @@ At the checked problem sections after a cold application start:
 - UI hierarchy reported zero WebViews;
 - logcat contained no relevant MathJax or undefined-control-sequence errors.
 
-## Physical Pixel
+## Physical Pixel: unmodified official app on WebView 133
+
+After explicit authorization, backup, and an unlocked-bootloader warning, the
+Pixel 9 Pro XL was fully flashed with Google's official
+`komodo-bp2a.250605.031.a2` factory image. The resulting environment was:
+
+- build `google/komodo/komodo:16/BP2A.250605.031.A2/13578606:user/release-keys`;
+- Android 16, security patch `2025-06-05`;
+- Google WebView and Chrome `133.0.6943.137`;
+- untouched official ChatGPT `1.2026.202` (`versionCode=2620225`);
+- a fresh successful sign-in to the official package.
+
+With the exact heavy mathematical conversation open, a 12-up/12-down swipe
+run after `dumpsys gfxinfo ... reset` recorded:
+
+- 655 rendered frames;
+- 6 deadline-janky frames (`0.92%`);
+- p50/p90/p95/p99 of `6/11/13/21 ms`;
+- zero missed-vsync frames.
+
+This is the first direct physical-device proof that the old provider removes
+the catastrophic amplifier without modifying ChatGPT. It does not make the
+June 2025 OS/WebView safe for normal long-term use.
+
+Raw values and the operational caveats are in
+`experiments/physical-pixel-android16.tsv` and
+`docs/physical-pixel-android16-webview133.md`.
+
+## Physical Pixel: patched renderer proof
 
 The phase-4 set with versionCode `2620230` was installed on the authorized
 Pixel 9 Pro XL while preserving the existing local-signer app session.

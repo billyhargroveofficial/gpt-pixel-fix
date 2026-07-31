@@ -1,0 +1,2 @@
+date	device	build	android	security_patch	webview	chatgpt	workload	swipes	frames	janky_frames	jank_percent	p50_ms	p90_ms	p95_ms	p99_ms	missed_vsync
+2026-07-31	Pixel 9 Pro XL	BP2A.250605.031.A2	16	2025-06-05	133.0.6943.137	1.2026.202	real heavy mathematical conversation	24	655	6	0.92	6	11	13	21	0

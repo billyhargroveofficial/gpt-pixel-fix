@@ -24,6 +24,9 @@ After submission, a clean matched host-GPU matrix found that the bad
 - Android 17/WebView 145, gate false: 61.89–83.06% jank, p50 85–109 ms;
 - Android 17/WebView 145, gate true: 0.63–1.26% steady-state jank,
   p50 16 ms.
+- Physical Pixel 9 Pro XL, official stock Android 16/WebView 133 and untouched
+  ChatGPT after a fresh login: 0.92% deadline jank, p50 6 ms, p99 21 ms over
+  655 frames/24 swipes in the real heavy chat.
 
 The Android 16/WebView 145 condition cross-installed the exact official
 WebView APK from the API 37 image and verified it as both the selected
